@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AgeApp.Migration\AgeApp.Migration.csproj" />
+    <ProjectReference Include="..\AgeApp.Model\AgeApp.Model.csproj" />
+    <ProjectReference Include="..\Ageapp.Service\Ageapp.Service.csproj" />
+  </ItemGroup>
+
+
+</Project>
